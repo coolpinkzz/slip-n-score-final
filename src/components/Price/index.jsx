@@ -34,10 +34,10 @@ export const Price = () => {
             <h3>Max Players: 10 + 2 (Substitute)</h3>
             <div className="price-wrap">
               <h3 sx={{ textDecoration: "line-through", margin: "0px" }}>
-                2500 Rs
+                2499 Rs
               </h3>
               <h3 sx={{ color: "yellow", fontSize: "30px", margin: "10px" }}>
-                1500 Rs (55 min)
+                1499 Rs (55 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
@@ -47,10 +47,10 @@ export const Price = () => {
             <h3>Max Players: 10 + 2 (Substitute)</h3>
             <div className="price-wrap">
               <h3 sx={{ textDecoration: "line-through", margin: "0px" }}>
-                3000 Rs
+                2999 Rs
               </h3>
               <h3 sx={{ color: "yellow", fontSize: "30px", margin: "10px" }}>
-                2000 Rs (55 min)
+                1999 Rs (55 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
