@@ -12,6 +12,7 @@ import {SoapFootballRules} from "../components/SoapFootballRules"
 import {Footer} from "../components/Footer"
 import Layout from "../components/layout"
 import {SEO} from "../utils/constant"
+import {Script} from "gatsby"
 
 
 
@@ -82,9 +83,15 @@ const badgeStyle = {
     lineHeight: 1,
 }
 
-
-
 const IndexPage = () => {
+    React.useEffect(() => {
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8Q1WHL6H48');
+    }, [])
+
     return (
         <Layout sx={{backgroundColor: 'background'}}>
             <Header />
@@ -148,5 +155,7 @@ export const Head = () => (
         <title>{SEO?.HOME?.title}</title>
         <meta name="description" content={SEO?.HOME?.description} />
         <meta name="image" content='https://ik.imagekit.io/slipnscore/logo.png?updatedAt=1695708043285' />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-8Q1WHL6H48"></Script>
+
     </>
 ) 
