@@ -1,0 +1,74 @@
+.price-heading {
+  text-align: center;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: pulse;
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+.price-container {
+  position: relative;
+  /*display: flex;*/
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+.bubble {
+  z-index: 10;
+  position: absolute;
+}
+
+.discount-info {
+  font-size: 40px;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  width: 50%;
+  margin: 0px auto 40px auto;
+}
+
+.rate-card {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.price-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 798px) {
+  .price-container {
+    display: block;
+    width: 90%;
+  }
+  .price-heading {
+    width: 100%;
+  }
+  .discount-info {
+    font-size: 32px;
+    text-align: center;
+    width: 95%;
+  }
+  .rate-card {
+    display: block;
+  }
+  .bubble {
+    display: none;
+  }
+}
