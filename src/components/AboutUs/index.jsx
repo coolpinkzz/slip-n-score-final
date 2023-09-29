@@ -39,7 +39,7 @@ export const AboutUs = () => {
       </div>
       <div>
         <h1 sx={{ color: "yellow", margin: "20px 0px" }}>
-          🌟 Slip N Score Offers:
+          🌟 Slip N Score Offer:
         </h1>
         <ul className="slip-score-ul">
           {SLIPNSCOREOFFER.map((list) => {

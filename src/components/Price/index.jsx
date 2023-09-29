@@ -7,7 +7,7 @@ import { bookNowBtn } from "../styles";
 import { LABELS } from "../../utils/labels";
 
 const PriceContainer = {
-  width: "75%",
+  width: "container",
 };
 
 export const Price = () => {
@@ -25,12 +25,13 @@ export const Price = () => {
         <div
           sx={{
             variant: "buttons.warning",
+            fontFamily: "content",
           }}
           className="rate-card"
         >
           <div sx={{ margin: "30px 0px" }}>
             <h2>Weekdays (Mon - Fri)</h2>
-            <h3>Max Players: 10 + 2</h3>
+            <h3>Max Players: 10 + 2 (Substitute)</h3>
             <div className="price-wrap">
               <h3 sx={{ textDecoration: "line-through", margin: "0px" }}>
                 2500 Rs
@@ -43,7 +44,7 @@ export const Price = () => {
           </div>
           <div sx={{ margin: "30px 0px" }}>
             <h2>Weekends (Sat - Sun)</h2>
-            <h3>Max Players: 10 + 2</h3>
+            <h3>Max Players: 10 + 2 (Substitute)</h3>
             <div className="price-wrap">
               <h3 sx={{ textDecoration: "line-through", margin: "0px" }}>
                 3000 Rs
