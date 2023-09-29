@@ -86,11 +86,12 @@ const badgeStyle = {
 const IndexPage = () => {
     React.useEffect(() => {
         window.dataLayer = window.dataLayer || [];
-        function gtag() {dataLayer.push(arguments);}
+        function gtag() {window.dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-8Q1WHL6H48');
+        gtag('config', process.env.GA_ANALYTIC_TRACKING_ID);
     }, [])
+    console.log(process.env.GA_ANALYTIC_TRACKING_ID, 'dsdsdsdsd');
 
     return (
         <Layout sx={{backgroundColor: 'background'}}>
