@@ -42,7 +42,10 @@ export const Price = () => {
               </h3>
             </div>
             <button sx={bookNowBtn}>
-              <Link to={process.env.PLAYO_VENUE_LINK} target="_blank">
+              <Link
+                to="https://playo.co/venues/hulimavu-bengaluru/slip-n-score-soap-football-hulimavu-bengaluru"
+                target="_blank"
+              >
                 {" "}
                 {LABELS?.BOOK_NOW}
               </Link>
@@ -60,7 +63,10 @@ export const Price = () => {
               </h3>
             </div>
             <button sx={bookNowBtn}>
-              <Link to={process.env.PLAYO_VENUE_LINK} target="_blank">
+              <Link
+                to="https://playo.co/venues/hulimavu-bengaluru/slip-n-score-soap-football-hulimavu-bengaluru"
+                target="_blank"
+              >
                 {" "}
                 {LABELS?.BOOK_NOW}
               </Link>

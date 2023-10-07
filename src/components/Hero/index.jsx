@@ -62,7 +62,10 @@ export const Hero = () => {
             <br /> Experience Now!
             <br />
             <button className="hero-btn" sx={bookNowBtn}>
-              <Link to={process.env.PLAYO_VENUE_LINK} target="_blank">
+              <Link
+                to="https://playo.co/venues/hulimavu-bengaluru/slip-n-score-soap-football-hulimavu-bengaluru"
+                target="_blank"
+              >
                 {" "}
                 {LABELS?.BOOK_NOW}
               </Link>
