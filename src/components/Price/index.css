@@ -48,6 +48,10 @@
   width: 75%;
   margin: auto;
 }
+.rate-card a {
+  color: inherit;
+  text-decoration: none;
+}
 .price-wrap {
   display: flex;
   align-items: center;

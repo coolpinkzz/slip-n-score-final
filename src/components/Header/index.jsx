@@ -3,7 +3,7 @@ import { jsx } from "theme-ui";
 import * as React from "react";
 import "./index.css";
 import { navLinks } from "../../utils/constant";
-import { navigate } from "gatsby";
+import { Link, navigate } from "gatsby";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
 import { useState } from "react";
@@ -69,7 +69,12 @@ export const Header = () => {
               );
             })}
           </ul>
-          <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
+          <button sx={bookNowBtn}>
+            <Link to={process.env.PLAYO_VENUE_LINK} target="_blank">
+              {" "}
+              {LABELS?.BOOK_NOW}
+            </Link>
+          </button>
           <div className={showMenu ? "show-menu" : "hide-menu"}>
             <RxCross2 onClick={closeMenu} className="cross-icon" />
             <nav>

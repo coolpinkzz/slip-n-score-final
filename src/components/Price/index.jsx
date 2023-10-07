@@ -5,6 +5,7 @@ import "./index.css";
 import { Heading } from "../Heading";
 import { bookNowBtn } from "../styles";
 import { LABELS } from "../../utils/labels";
+import { Link } from "gatsby";
 
 const PriceContainer = {
   width: "container",
@@ -40,7 +41,12 @@ export const Price = () => {
                 1499 Rs (55 min)
               </h3>
             </div>
-            <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
+            <button sx={bookNowBtn}>
+              <Link to={process.env.PLAYO_VENUE_LINK} target="_blank">
+                {" "}
+                {LABELS?.BOOK_NOW}
+              </Link>
+            </button>
           </div>
           <div sx={{ margin: "30px 0px" }}>
             <h2>Weekends (Sat - Sun)</h2>
@@ -53,7 +59,12 @@ export const Price = () => {
                 1999 Rs (55 min)
               </h3>
             </div>
-            <button sx={bookNowBtn}>{LABELS?.BOOK_NOW}</button>
+            <button sx={bookNowBtn}>
+              <Link to={process.env.PLAYO_VENUE_LINK} target="_blank">
+                {" "}
+                {LABELS?.BOOK_NOW}
+              </Link>
+            </button>
           </div>
         </div>
       </div>
