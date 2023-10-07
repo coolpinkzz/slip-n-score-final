@@ -5,6 +5,8 @@ import Lottie from "react-lottie";
 import soapAnimation from "../../../static/soap.json";
 import "./index.css";
 import { StaticImage } from "gatsby-plugin-image";
+import { LABELS } from "../../utils/labels";
+import { Link } from "gatsby";
 
 export const Hero = () => {
   const bookNowBtn = {
@@ -60,7 +62,10 @@ export const Hero = () => {
             <br /> Experience Now!
             <br />
             <button className="hero-btn" sx={bookNowBtn}>
-              Coming Soon
+              <Link to={process.env.PLAYO_VENUE_LINK} target="_blank">
+                {" "}
+                {LABELS?.BOOK_NOW}
+              </Link>
             </button>
           </p>
         </div>
