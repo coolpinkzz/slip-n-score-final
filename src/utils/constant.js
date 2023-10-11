@@ -67,7 +67,7 @@ export const PHONE_NUMBER = '+91 9886011023'
 export const SEO = {
     HOME: {
         title: 'Slip N Score Soap Football Bangalore',
-        description: 'At Slip N Score, we are all about turning ordinary soccer into an extraordinary adventure. Our one-of-a-kind arena is where the thrill of soccer meets the slip and slide of soapy fun. We`re here to bring you an experience that`s not just a game but a splash-tacular event!'
+        description: 'At Slip N Score, we are all about turning ordinary football into an extraordinary adventure. Our one-of-a-kind arena is where the thrill of football meets the slip and slide of soapy fun. We`re here to bring you an experience that`s not just a game but a splash-tacular event!'
     },
     ABOUT: {
         title: 'About Slip N Score Soap Football Bangalore',
@@ -83,11 +83,11 @@ export const SEO = {
     },
     TERMSCOND: {
         title: 'Terms And Condition Slip N Score Football Bangalore',
-        description: 'At Slip N Score, we are all about turning ordinary soccer into an extraordinary adventure. Our one-of-a-kind arena is where the thrill of soccer meets the slip and slide of soapy fun. We`re here to bring you an experience that`s not just a game but a splash-tacular event!'
+        description: 'At Slip N Score, we are all about turning ordinary football into an extraordinary adventure. Our one-of-a-kind arena is where the thrill of football meets the slip and slide of soapy fun. We`re here to bring you an experience that`s not just a game but a splash-tacular event!'
     },
     PRIVACY: {
         title: 'Privacy Policy Slip N Score Football Bangalore',
-        description: 'At Slip N Score, we are all about turning ordinary soccer into an extraordinary adventure. Our one-of-a-kind arena is where the thrill of soccer meets the slip and slide of soapy fun. We`re here to bring you an experience that`s not just a game but a splash-tacular event!'
+        description: 'At Slip N Score, we are all about turning ordinary football into an extraordinary adventure. Our one-of-a-kind arena is where the thrill of football meets the slip and slide of soapy fun. We`re here to bring you an experience that`s not just a game but a splash-tacular event!'
     },
 
 }
