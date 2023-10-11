@@ -13,6 +13,7 @@ import {Footer} from "../components/Footer"
 import Layout from "../components/layout"
 import {SEO} from "../utils/constant"
 import {Script} from "gatsby"
+import {YoutubeVideo} from "../components/YotubeVideos"
 
 
 
@@ -98,6 +99,7 @@ const IndexPage = () => {
             <Header />
             <Hero />
             <Price />
+            <YoutubeVideo />
             <WhatWeOffer />
             <RulesRegulation />
             <Location />
