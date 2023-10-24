@@ -52,7 +52,7 @@ export const Price = () => {
             </button>
           </div>
           <div sx={{ margin: "30px 0px" }}>
-            <h2>Weekends (Sat - Sun)</h2>
+            <h2>Weekends (Sat - Sun) + Holidays</h2>
             <h3>Max Players: 10 + 2 (Substitute)</h3>
             <div className="price-wrap">
               <h3 sx={{ textDecoration: "line-through", margin: "0px" }}>
