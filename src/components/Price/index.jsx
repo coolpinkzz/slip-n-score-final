@@ -20,7 +20,7 @@ export const Price = () => {
         <div sx={{ flex: 1 }}>
           <h1 sx={{ fontFamily: "content" }} className="discount-info">
             Get ready for non-stop fun with a Flat{" "}
-            <span sx={{ color: "yellow" }}> 1000 ₹ </span>discount on each slot
+            <span sx={{ color: "yellow" }}> 500 ₹ </span>discount on each slot
           </h1>
         </div>
         <div
@@ -38,7 +38,7 @@ export const Price = () => {
                 2499 Rs
               </h3>
               <h3 sx={{ color: "yellow", fontSize: "30px", margin: "10px" }}>
-                1499 Rs (55 min)
+                1999 Rs (55 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>
@@ -59,7 +59,7 @@ export const Price = () => {
                 2999 Rs
               </h3>
               <h3 sx={{ color: "yellow", fontSize: "30px", margin: "10px" }}>
-                1999 Rs (55 min)
+                2499 Rs (55 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>
