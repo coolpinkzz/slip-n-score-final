@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui";
 import * as React from "react";
 import "./index.css";
-import { navLinks } from "../../utils/constant";
+import { navLinks, WHATSAPPLINK } from "../../utils/constant";
 import { Link, navigate } from "gatsby";
 import { AiOutlineMenu } from "react-icons/ai";
 import { RxCross2 } from "react-icons/rx";
@@ -70,10 +70,7 @@ export const Header = () => {
             })}
           </ul>
           <button sx={bookNowBtn}>
-            <Link
-              to="https://playo.co/venues/hulimavu-bengaluru/slip-n-score-soap-football-hulimavu-bengaluru"
-              target="_blank"
-            >
+            <Link to={WHATSAPPLINK} target="_blank">
               {" "}
               {LABELS?.BOOK_NOW}
             </Link>

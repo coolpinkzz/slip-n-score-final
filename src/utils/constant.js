@@ -13,13 +13,14 @@ export const navLinks = [
     },
 
 ]
+export const WHATSAPPLINK = "https://wa.me/message/PCN56GV7XJQZD1"
 
 export const Services = [
     {
         title: 'Online Private Bookings',
         slug: 'online-private-bookings',
         description: 'We Allow individuals and groups to reserve the arena for private sessions, whether it`s for practicing football skills, friendly matches, or simply enjoying a day out with friends and family',
-        url: "team-building.png"
+        url: "team-building.jpg"
     },
     {
         title: 'Party Packages',

@@ -6,6 +6,7 @@ import { Heading } from "../Heading";
 import { bookNowBtn } from "../styles";
 import { LABELS } from "../../utils/labels";
 import { Link } from "gatsby";
+import { WHATSAPPLINK } from "../../utils/constant";
 
 const PriceContainer = {
   width: "container",
@@ -15,12 +16,12 @@ export const Price = () => {
   return (
     <div sx={{ position: "relative" }}>
       <img className="bubble" src={"../../bubble.png"} width={200} />
-      <h1 className="price-heading"> Exclusive Grand Opening Offers!</h1>
+      <h1 className="price-heading"> Exclusive Winter Offers!</h1>
       <div sx={PriceContainer} className="price-container">
         <div sx={{ flex: 1 }}>
           <h1 sx={{ fontFamily: "content" }} className="discount-info">
             Get ready for non-stop fun with a Flat{" "}
-            <span sx={{ color: "yellow" }}> 500 ₹ </span>discount on each slot
+            <span sx={{ color: "yellow" }}> 1000 ₹ </span>discount on each slot
           </h1>
         </div>
         <div
@@ -38,14 +39,11 @@ export const Price = () => {
                 2499 Rs
               </h3>
               <h3 sx={{ color: "yellow", fontSize: "30px", margin: "10px" }}>
-                1999 Rs (55 min)
+                1499 Rs (55 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>
-              <Link
-                to="https://playo.co/venues/hulimavu-bengaluru/slip-n-score-soap-football-hulimavu-bengaluru"
-                target="_blank"
-              >
+              <Link to={WHATSAPPLINK} target="_blank">
                 {" "}
                 {LABELS?.BOOK_NOW}
               </Link>
@@ -59,14 +57,11 @@ export const Price = () => {
                 2999 Rs
               </h3>
               <h3 sx={{ color: "yellow", fontSize: "30px", margin: "10px" }}>
-                2499 Rs (55 min)
+                1999 Rs (55 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>
-              <Link
-                to="https://playo.co/venues/hulimavu-bengaluru/slip-n-score-soap-football-hulimavu-bengaluru"
-                target="_blank"
-              >
+              <Link to={WHATSAPPLINK} target="_blank">
                 {" "}
                 {LABELS?.BOOK_NOW}
               </Link>
