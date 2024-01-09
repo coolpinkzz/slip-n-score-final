@@ -3,10 +3,13 @@ import { jsx } from "theme-ui";
 import * as React from "react";
 import Lottie from "react-lottie";
 import soapAnimation from "../../../static/soap.json";
+import { Link } from "gatsby";
+
 import "./index.css";
 import { StaticImage } from "gatsby-plugin-image";
-import { LABELS } from "../../utils/labels";
-import { Link } from "gatsby";
+import { FaWhatsapp } from "react-icons/fa";
+import { GrInstagram } from "react-icons/gr";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 export const Hero = () => {
   const bookNowBtn = {
@@ -33,22 +36,47 @@ export const Hero = () => {
           sx={{
             background: "tomato",
           }}
+          className="contact-box"
         >
-          <h2 sx={{ fontFamily: "content" }} className="welcome">
-            Get ready to slide, score, and make a bubbly mess like never before!
-            <span sx={{ marginLeft: 10 }}>
-              <Lottie options={defaultOptions} height={40} width={40} />
-            </span>
-          </h2>
+          <div className="social">
+            <Link to="https://www.instagram.com/slipnscoreblr" target="_blank">
+              <p sx={{ fontFamily: "content" }} className="welcome">
+                <span sx={{ display: "flex" }} className="icons">
+                  <GrInstagram color="white" />
+                </span>
+                slipnscoreblr
+              </p>
+            </Link>
+          </div>
+          <div className="social">
+            <Link to="https://wa.me/message/PCN56GV7XJQZD1" target="_blank">
+              <p sx={{ fontFamily: "content" }} className="welcome">
+                <span sx={{ display: "flex" }} className="icons">
+                  <FaWhatsapp color="white" />
+                </span>
+                9886011023
+              </p>
+            </Link>
+          </div>
+          <div className="social hideOnPhone">
+            <Link to="https://g.co/kgs/9CHAfWE" target="_blank">
+              <p sx={{ fontFamily: "content" }} className="welcome">
+                <span sx={{ display: "flex" }} className="icons">
+                  <FaMapMarkerAlt color="white" />
+                </span>
+                Slip N Score Soap Football
+              </p>
+            </Link>
+          </div>
         </div>
         <div className="hero-bg">
           <StaticImage
             className="hero-img"
-            src="https://ik.imagekit.io/slipnscore/hero_bg.png?updatedAt=1695709257059"
+            src="https://ik.imagekit.io/slipnscore/Kick,%20Slide,%20Score!%20Immerse%20yourself%20in%20the%20thrill%20of%20Slip%20'n'%20Score%20Soap%20Football%20in%20Bangalore%20(1)%20(1).jpg?updatedAt=1704780478056"
             alt="slip n score"
           />
           <div className="hero-dull"></div>
-          <p className="hero-text">
+          {/*<p className="hero-text">
             Score Big with{" "}
             <span className="fadein" sx={{ color: "aqua" }}>
               {" "}
@@ -70,7 +98,7 @@ export const Hero = () => {
                 {LABELS?.BOOK_NOW}
               </Link>
             </button>
-          </p>
+          </p>*/}
         </div>
       </div>
     </>
