@@ -3,6 +3,7 @@ import { jsx } from "theme-ui";
 import * as React from "react";
 import "./index.css";
 import { navigate } from "@reach/router";
+import { WHATSAPPLINK } from "../../utils/constant";
 
 export const Card = ({ title, description, url, slug }) => {
   return (
@@ -17,7 +18,7 @@ export const Card = ({ title, description, url, slug }) => {
         <h2 sx={{ color: "yellow", margin: "10px 0px" }}>{title}</h2>
         <p>{description}</p>
         <button
-          onClick={() => navigate(`/contact/`)}
+          onClick={() => navigate(WHATSAPPLINK)}
           sx={{
             variant: "buttons.primary",
             fontSize: "16px",
