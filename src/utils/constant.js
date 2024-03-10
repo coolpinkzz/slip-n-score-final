@@ -26,13 +26,13 @@ export const Services = [
         title: 'Party Packages',
         slug: 'party-packages',
         description: 'We create special packages for birthday or kitty parties and other celebrations. These packages may include exclusive playtime and decorations to make events memorable.',
-        url: "party.jpeg"
+        url: "party.jpg"
     },
     {
         title: 'Team Building Event',
         slug: 'team-building Event',
         description: 'We Offer team-building sessions for companies and organizations. Soapy football can be a unique and fun way for teams to bond and improve their communication and cooperation skills.',
-        url: "team-building-exercise.png"
+        url: "team-building-exe.png"
     },
     {
         title: 'Event Hosting',
