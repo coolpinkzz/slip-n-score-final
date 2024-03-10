@@ -43,7 +43,7 @@ export const ContactUs = () => {
             <TfiEmail sx={{ color: "yellow" }} />
             <div>
               <h2>Email Address</h2>
-              <p>info@slipnscore.in</p>
+              <p>slipnscoreblr@gmail.com</p>
             </div>
           </div>
         </div>
