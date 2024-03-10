@@ -12,7 +12,7 @@ import {SoapFootballRules} from "../components/SoapFootballRules"
 import {Footer} from "../components/Footer"
 import Layout from "../components/layout"
 import {SEO} from "../utils/constant"
-import {Script} from "gatsby"
+import {Link, Script} from "gatsby"
 import {YoutubeVideo} from "../components/YotubeVideos"
 
 
@@ -99,7 +99,7 @@ const IndexPage = () => {
             <Header />
             <Hero />
             <Price />
-            <YoutubeVideo />
+            {/*<YoutubeVideo />*/}
             <WhatWeOffer />
             <RulesRegulation />
             <Location />
@@ -159,6 +159,8 @@ export const Head = () => (
         <meta name="description" content={SEO?.HOME?.description} />
         <meta name="image" content='https://ik.imagekit.io/slipnscore/logo.png?updatedAt=1695708043285' />
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-8Q1WHL6H48"></Script>
+        <Link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></Script>
 
     </>
 ) 

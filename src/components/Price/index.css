@@ -29,7 +29,29 @@
   z-index: 10;
   position: absolute;
 }
-
+.studentOfferContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  padding: 10px 0px;
+}
+.studentOfferImg {
+  width: 250px;
+  height: auto;
+}
+.studentOfferImgConatiner {
+  flex: 1;
+  text-align: center;
+}
+.studentOfferDiv {
+  margin-top: 20px;
+  flex: 1;
+}
+.howtoavail {
+  margin-top: 10px;
+}
 .discount-info {
   font-size: 40px;
   position: relative;
@@ -44,9 +66,9 @@
   text-align: center;
   display: flex;
   justify-content: space-around;
-  padding: 20px 0px;
+  padding: 30px 0px;
   width: 75%;
-  margin: auto;
+  margin: 40px auto;
 }
 .rate-card a {
   color: inherit;
@@ -77,5 +99,16 @@
   }
   .bubble {
     display: none;
+  }
+  .studentOfferContainer {
+    display: block;
+    width: 100%;
+  }
+  .studentOfferImg {
+    width: 175px;
+    height: auto;
+  }
+  .studentOfferDiv {
+    /*text-align: center;*/
   }
 }

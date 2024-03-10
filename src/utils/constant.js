@@ -44,7 +44,7 @@ export const Services = [
         title: 'Rent Soapy Football Pitch',
         slug: 'rent-soap-footbal-pitch',
         description: 'We are offering a mobile setup that can be transported to different locations for events, festivals, or promotional activities.',
-        url: "rent-pitch.png"
+        url: "rent-pitch.jpg"
     }
 ]
 
