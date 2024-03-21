@@ -55,7 +55,7 @@ export const Price = () => {
           </div>
           <div sx={{ fontFamily: "content" }} className="studentOfferDiv">
             <h1>Happy Hour Special at Slip n Score</h1>
-            <h3 sx={{ color: "yellow" }}>Timings : 10am to 4pm</h3>
+            <h3 sx={{ color: "yellow" }}>Timings : 9am to 12pm</h3>
             <p sx={{ marginTop: "5px", textAlign: "justify" }}>
               Looking for a midday break filled with excitement and laughter?
               Look no further! Slip n Score Soap Football is thrilled to
@@ -63,7 +63,7 @@ export const Price = () => {
               to 4 pm.
             </p>
             <div sx={{ color: "yellow" }} className="howtoavail">
-              <h3>Monday - Friday : ₹ 1200 /-</h3>
+              <h3>Monday - Friday : ₹ 1500 /-</h3>
               <h3>Saturday - Sunday or Holidays : ₹ 1800 /-</h3>
             </div>
           </div>
@@ -84,16 +84,16 @@ export const Price = () => {
           <div sx={{ margin: "30px 0px" }}>
             <h2>Weekdays (Mon - Fri)</h2>
             <h3>Max Players: 10 + 2 (Substitute)</h3>
-            <p sx={{ margin: "10px 0px" }}>Timings (10am - 4pm)</p>
+            <p sx={{ margin: "10px 0px" }}>Timings (9am - 12pm)</p>
             <div className="price-wrap">
               <h3 sx={{ color: "yellow", fontSize: "30px" }}>
-                1199 Rs (60 min)
+                1500 Rs (60 min)
               </h3>
             </div>
             <p sx={{ margin: "10px 0px" }}>Timings (4pm - 9pm)</p>
             <div className="price-wrap">
               <h3 sx={{ color: "yellow", fontSize: "30px" }}>
-                1499 Rs (60 min)
+                1800 Rs (60 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>
@@ -106,16 +106,16 @@ export const Price = () => {
           <div sx={{ margin: "30px 0px" }}>
             <h2>Weekends (Sat - Sun) + Holidays</h2>
             <h3>Max Players: 10 + 2 (Substitute)</h3>
-            <p sx={{ margin: "10px 0px" }}>Timings (10am - 4pm)</p>
+            <p sx={{ margin: "10px 0px" }}>Timings (9am - 12pm)</p>
             <div className="price-wrap">
               <h3 sx={{ color: "yellow", fontSize: "30px" }}>
-                1799 Rs (60 min)
+                1800 Rs (60 min)
               </h3>
             </div>
             <p sx={{ margin: "10px 0px" }}>Timings (4pm - 9pm)</p>
             <div className="price-wrap">
               <h3 sx={{ color: "yellow", fontSize: "30px" }}>
-                1999 Rs (60 min)
+                2000 Rs (60 min)
               </h3>
             </div>
             <button sx={bookNowBtn}>
