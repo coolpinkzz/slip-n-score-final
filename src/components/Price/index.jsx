@@ -59,8 +59,8 @@ export const Price = () => {
             <p sx={{ marginTop: "5px", textAlign: "justify" }}>
               Looking for a midday break filled with excitement and laughter?
               Look no further! Slip n Score Soap Football is thrilled to
-              introduce our Happy Hour offer, ensuring non-stop fun from 10 am
-              to 4 pm.
+              introduce our Happy Hour offer, ensuring non-stop fun from 9 am to
+              12 pm.
             </p>
             <div sx={{ color: "yellow" }} className="howtoavail">
               <h3>Monday - Friday : ₹ 1500 /-</h3>
